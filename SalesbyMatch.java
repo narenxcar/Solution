@@ -85,3 +85,24 @@ public class SalesbyMatch {
 	}
 
 }
+/*
+ * import java.util.*;
+public class Solution {
+    public static void main(String[] args){
+       Scanner in=new Scanner(System.in);
+       int size=in.nextInt();
+      Set<Integer>pairs=new HashSet<>();
+      int count=0;
+       for(int index=0;index<size;index++){
+           int a=in.nextInt();
+           if(!pairs.contains(a)){
+               pairs.add(a);
+           }else{
+               count++;
+               pairs.remove(a);
+           }
+       }
+       System.out.println(count);  
+        }
+}
+*/
