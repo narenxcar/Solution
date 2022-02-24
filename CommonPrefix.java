@@ -1,6 +1,8 @@
 package Programs;
 import java.util.*;
+//Declaring the another  class 
 class Common{
+	//Declaring the another method
 	String prefix(String str1,String str2) {
 		String result="";
 		if(str1=="")return str2;
