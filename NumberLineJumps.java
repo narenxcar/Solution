@@ -48,8 +48,8 @@ public class NumberLineJumps {
 	        System.out.print("Enter the second kangaroo at stage : ");
 	        int x2=in.nextInt();   
 	        System.out.print("Enter the second kangaroo meter can jumps : ");
-	        int v2=in.nextInt();        
-	    int defv=v1-v2;
+	        int v2=in.nextInt();
+	    int defv=v1-v2;// 1 3  2 2
 	        if(defv<=0){
 	         System.out.print("NO");
 	        }
